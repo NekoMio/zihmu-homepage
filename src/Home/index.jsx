@@ -23,6 +23,7 @@ import {
   Feature40DataSource,
   Teams10DataSource,
   Teams40DataSource,
+  Footer01DataSource,
   Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -115,6 +116,12 @@ export default class Home extends React.Component {
         id="Teams4_0"
         key="Teams4_0"
         dataSource={Teams40DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Footer0
+        id="Footer0_1"
+        key="Footer0_1"
+        dataSource={Footer01DataSource}
         isMobile={this.state.isMobile}
       />,
       <Footer0

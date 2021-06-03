@@ -8,6 +8,7 @@ import wb from "./static/wb.png"
 import wbb from "./static/wbb.png"
 import xs from "./static/xs.jpg"
 import yyl from "./static/yyl.png"
+import ht from "./static/ht.jpg"
 import pic1 from "./static/pic1.png"
 import pic2 from "./static/pic2.png"
 
@@ -109,6 +110,72 @@ export const Nav31DataSource = {
                           <span>
                             <span>
                               <span>
+                                <span>
+                                  <p>指目云</p>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item~kpgq1dm4hpk',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <p>指目文创</p>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item~kpgq1ejkoq',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
                                 <p>联系我们</p>
                               </span>
                             </span>
@@ -130,7 +197,7 @@ export const Nav31DataSource = {
 };
 export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
-  page: { className: 'home-page banner5-page' },
+  page: { className: 'home-page banner5-page kpgp5i1lklc-editor_css' },
   childWrapper: {
     className: 'banner5-title-wrapper',
     children: [
@@ -138,9 +205,7 @@ export const Banner50DataSource = {
         name: 'title',
         children: (
           <span>
-            <span>
-              <p>指目为梦</p>
-            </span>
+            <p>聚元维梦</p>
           </span>
         ),
         className: 'banner5-title',
@@ -792,7 +857,7 @@ export const Teams40DataSource = {
   wrapper: {
     className: 'home-page-wrapper content8-wrapper kp730fnpa47-editor_css',
   },
-  page: { className: 'home-page content8' },
+  page: { className: 'home-page content8 kpgp6o83oqp-editor_css' },
   OverPack: { playScale: 0.3 },
   titleWrapper: {
     className: 'title-wrapper',
@@ -817,6 +882,54 @@ export const Teams40DataSource = {
   block: {
     className: 'content-wrapper',
     children: [
+      {
+        name: 'block~kpgpf4zvbpg',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children: ht,
+              // 'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+          },
+          title: {
+            className: 'content8-title',
+            children: (
+              <span>
+                <span>
+                  <p>胡桃</p>
+                </span>
+              </span>
+            ),
+          },
+          content: {
+            className: 'content8-content',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <p>教授，教育部高等学校电子商</p>
+                      <p>务类教指委委员；北京邮电大</p>
+                      <p>学经济管理学院电子商务中心</p>
+                      <p>主任；电子商务专业负责人；</p>
+                      <p>中国金融电子支付发展研究中</p>
+                      <p>心理事；全国信用标准化技术</p>
+                      <p>委员会电子商务信用分技术委</p>
+                      <p>员会委员。2016北京市京津冀</p>
+                      <p>
+                        协同发展百名党外挂职专家。<br />
+                      </p>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
       {
         name: 'block0',
         md: 6,
@@ -986,16 +1099,34 @@ export const Teams40DataSource = {
     ],
   },
 };
-export const Footer00DataSource = {
+export const Footer01DataSource = {
   wrapper: { className: 'home-page-wrapper footer0-wrapper' },
-  OverPack: { className: 'home-page footer0', playScale: 0.05 },
+  OverPack: {
+    className: 'home-page footer0 kpgq9w9hjpe-editor_css',
+    playScale: 0.05,
+  },
   copyright: {
     className: 'copyright',
     children: (
       <span>
+        <br />
+      </span>
+    ),
+  },
+};
+export const Footer00DataSource = {
+  wrapper: { className: 'home-page-wrapper footer0-wrapper' },
+  OverPack: {
+    className: 'home-page footer0 kpgq8rh4w6o-editor_css',
+    playScale: 0.05,
+  },
+  copyright: {
+    className: 'copyright kpgp6kgf6h-editor_css',
+    children: (
+      <span>
         <span>
           <span>
-            ©2021 <a href="zhimu.site">Zhimu</a> All Rights Reserved<br />
+            ©2021 <a href="zhimu.site">Zhimu </a>All Rights Reserved
           </span>
         </span>
       </span>
