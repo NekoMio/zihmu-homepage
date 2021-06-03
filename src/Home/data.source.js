@@ -8,18 +8,45 @@ import wb from "./static/wb.png"
 import wbb from "./static/wbb.png"
 import xs from "./static/xs.jpg"
 import yyl from "./static/yyl.png"
+import pic1 from "./static/pic1.png"
+import pic2 from "./static/pic2.png"
 
-export const Nav30DataSource = {
-  wrapper: { className: 'header3 home-page-wrapper jzih1dpqqrg-editor_css' },
+export const Nav31DataSource = {
+  wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
-    className: 'header3-logo jzjgnya1gmn-editor_css',
-    children: logo,
-      // 'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-J8NSLj9rbsAAAAAAAAAAABkARQnAQ',
+    className: 'header3-logo',
+    children: logo
+      // 'https://gw.alipayobjects.com/zos/basement_prod/b30cdc2a-d91c-4c78-be9c-7c63b308d4b3.svg',
   },
   Menu: {
     className: 'header3-menu',
     children: [
+      {
+        name: 'item0',
+        className: 'header3-item',
+        children: {
+          href: '/',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>主页</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
       {
         name: 'item1',
         className: 'header3-item',
@@ -29,32 +56,73 @@ export const Nav30DataSource = {
             {
               children: (
                 <span>
-                  <p>
-                    <br />
-                  </p>
+                  <span>
+                    <span>
+                      <span>
+                        <p>指目商城</p>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
               name: 'text',
             },
           ],
         },
-        subItem: [
-          {
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item jzj8295azrs-editor_css',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image jzj81c9wabh-editor_css',
-                  children:
-                    'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*4_S6ToPfj-QAAAAAAAAAAABkARQnAQ',
-                },
-              ],
+      },
+      {
+        name: 'item2',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>指目论坛</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
             },
-            name: 'sub~jzj8hceysgj',
-          },
-        ],
+          ],
+        },
+      },
+      {
+        name: 'item~kpgd63h9wsu',
+        className: 'header3-item',
+        children: {
+          href: '#',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>联系我们</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
       },
     ],
   },
@@ -96,16 +164,16 @@ export const Banner50DataSource = {
           </span>
         ),
       },
-      {
-        name: 'button',
-        className: 'banner5-button-wrapper',
-        children: {
-          href: '#',
-          className: 'banner5-button',
-          type: 'primary',
-          children: '开始使用',
-        },
-      },
+      // {
+      //   name: 'button',
+      //   className: 'banner5-button-wrapper',
+      //   children: {
+      //     href: '#',
+      //     className: 'banner5-button',
+      //     type: 'primary',
+      //     children: '开始使用',
+      //   },
+      // },
     ],
   },
   image: {
@@ -406,6 +474,192 @@ export const Feature00DataSource = {
     ],
   },
 };
+export const Feature10DataSource = {
+  wrapper: { className: 'home-page-wrapper content1-wrapper' },
+  OverPack: { className: 'home-page content1', playScale: 0.3 },
+  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+  img: {
+    children: pic1, //'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
+  },
+  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  title: {
+    className: 'content1-title',
+    children: (
+      <span>
+        <p>盲人阅读指套</p>
+      </span>
+    ),
+  },
+  content: {
+    className: 'content1-content',
+    children: (
+      <span>
+        <p>
+          该设备仅有手指大小,&nbsp;使用时可套在食指上,&nbsp;当以指划的方式阅读盲文时,&nbsp;设备可以实时翻译盲文并以语音的形式进行播报。
+        </p>
+      </span>
+    ),
+  },
+};
+export const Feature20DataSource = {
+  wrapper: { className: 'home-page-wrapper content2-wrapper' },
+  OverPack: { className: 'home-page content2', playScale: 0.3 },
+  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
+  img: {
+    children: pic2, //'https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png',
+  },
+  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
+  title: {
+    className: 'content2-title',
+    children: (
+      <span>
+        <p>盲人智能手杖</p>
+      </span>
+    ),
+  },
+  content: {
+    className: 'content2-content',
+    children: (
+      <span>
+        <p>
+          智能拐杖,&nbsp;使用时可以满足日常的路线规划，定位，导航的基本功能。通过传感器和摄像头准确定位障碍物大小和距离。同时握把处可以滚动突起，将摄像头中的物体影像去展示在手掌中，让盲人感受理解世界。
+        </p>
+      </span>
+    ),
+  },
+};
+export const Feature40DataSource = {
+  wrapper: { className: 'home-page-wrapper content6-wrapper' },
+  OverPack: { className: 'home-page content6' },
+  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>指目生态</p>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+      {
+        name: 'content',
+        className: 'title-content',
+        children: (
+          <span>
+            <p>致力于打造以互联网模式为基础的“扶盲助盲”生态圈</p>
+            <p>推动爱盲平台成为国内第一家全方位助盲平台</p>
+          </span>
+        ),
+      },
+    ],
+  },
+  img: {
+    children: 'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
+    className: 'content6-img',
+    xs: 24,
+    md: 14,
+  },
+  block: {
+    children: [
+      {
+        name: 'block0',
+        img: {
+          children:
+            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+          className: 'content6-icon',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <span>
+                <p>指目云</p>
+              </span>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <span>
+                <span>
+                  <span>
+                    <p>
+                      “指目云”是视障群体信息收集分析大数据平台，由前端系统和后台数据库<span>
+                        两部分构成，旨在完善我国视障群体的信息收集、分析，以便更好的为视障群
+                      </span>
+                      <span>
+                        体服务。
+                      </span>
+                    </p>
+                  </span>
+                </span>
+              </span>
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block1',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>指目论坛</p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>
+                “指目论坛”是视障群体信息交流及分析平台，由前端系统和后台数据库两部分构成，旨在提升我国视障群体的信息流通能力，以便更好的为视障群体服务。指目论坛存在的主要意义是帮助盲人们解决具体生活问题。
+              </p>
+            </span>
+          ),
+        },
+      },
+      {
+        name: 'block2',
+        img: {
+          className: 'content6-icon',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+        },
+        title: {
+          className: 'content6-title',
+          children: (
+            <span>
+              <p>周边文创</p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content',
+          children: (
+            <span>
+              <p>
+                团队在项目发展后期将会打造“指目”公益品牌，并将品牌投放在大众视<span>
+                  野。
+                </span>
+              </p>
+            </span>
+          ),
+        },
+      },
+    ],
+  },
+};
 export const Teams10DataSource = {
   wrapper: { className: 'home-page-wrapper teams1-wrapper' },
   page: { className: 'home-page teams1' },
@@ -436,7 +690,7 @@ export const Teams10DataSource = {
             {
               name: 'image',
               className: 'teams1-image',
-              children: 'https://zhimu.venti.me/static/ly.png'
+              children: 'https://zhimu.nekomio.com/static/ly.png'
                 // 'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
             },
             {
@@ -473,7 +727,7 @@ export const Teams10DataSource = {
             {
               name: 'image',
               className: 'teams1-image',
-              children: 'https://zhimu.venti.me/static/yyl.png',
+              children: 'https://zhimu.nekomio.com/static/yyl.png',
                 // 'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
             },
             {
@@ -507,7 +761,7 @@ export const Teams10DataSource = {
             {
               name: 'image',
               className: 'teams1-image',
-              children: 'https://zhimu.venti.me/static/lyj.png'
+              children: 'https://zhimu.nekomio.com/static/lyj.png'
                 // 'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
             },
             {
@@ -656,9 +910,7 @@ export const Teams40DataSource = {
                   <p>北京邮电大学博士生导师, 多年</p>
                   <p>来一直在计算机科学及通信系</p>
                   <p>
-                    统软件方面从事教学和研究工<span>
-                      作。
-                    </span>
+                    统软件方面从事教学和研究工<span>作。</span>
                   </p>
                 </span>
               </span>
@@ -734,81 +986,17 @@ export const Teams40DataSource = {
     ],
   },
 };
-export const Footer10DataSource = {
-  wrapper: { className: 'home-page-wrapper footer1-wrapper' },
-  OverPack: { className: 'footer1', playScale: 0.2 },
-  block: {
-    className: 'home-page kp731i1q5dn-editor_css',
-    gutter: 0,
-    children: [
-      {
-        name: 'block0',
-        xs: 24,
-        md: 8,
-        className: 'block',
-        title: {
-          className: 'logo jzl0qcpyjra-editor_css',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*GzZ-QqkpH4AAAAAAAAAAAABkARQnAQ',
-        },
-        childWrapper: {
-          className: 'slogan',
-          children: [
-            { name: 'content0', children: <p>蚂蚁金服计算机视觉平台</p> },
-          ],
-        },
-      },
-      {
-        name: 'block2',
-        xs: 24,
-        md: 8,
-        className: 'block',
-        title: { children: <p>联系我们</p> },
-        childWrapper: {
-          children: [
-            {
-              name: 'image~jzl0tcm4f1d',
-              className: '',
-              children:
-                'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*NoENTI5uyn4AAAAAAAAAAABkARQnAQ',
-            },
-            {
-              href: '#',
-              name: 'link0',
-              children: <p>图鹰对接答疑钉钉群</p>,
-              className: 'jzl0u1bko6-editor_css',
-            },
-            { href: '#', name: 'link1', children: '联系我们' },
-          ],
-        },
-      },
-      {
-        name: 'block3',
-        xs: 24,
-        md: 8,
-        className: 'block',
-        title: { children: '资源' },
-        childWrapper: {
-          children: [
-            { href: '#', name: 'link0', children: 'Ant Design' },
-            { href: '#', name: 'link1', children: 'Ant Motion' },
-          ],
-        },
-      },
-    ],
-  },
-  copyrightWrapper: { className: 'copyright-wrapper' },
-  copyrightPage: { className: 'home-page' },
+export const Footer00DataSource = {
+  wrapper: { className: 'home-page-wrapper footer0-wrapper' },
+  OverPack: { className: 'home-page footer0', playScale: 0.05 },
   copyright: {
     className: 'copyright',
     children: (
       <span>
         <span>
-          <a href="http://abc.alipay.com">隐私权政策</a>&nbsp; &nbsp; &nbsp;
-          |&nbsp; &nbsp; &nbsp;{' '}
-          <a href="http://abc.alipay.com">权益保障承诺书</a>&nbsp; &nbsp;
-          &nbsp;&nbsp;ICP证:浙B2-20100257&nbsp; &nbsp; &nbsp;&nbsp;Copyright ©
-          2019 蚂蚁金融服务集团<br />
+          <span>
+            ©2021 <a href="zhimu.site">Zhimu</a> All Rights Reserved<br />
+          </span>
         </span>
       </span>
     ),

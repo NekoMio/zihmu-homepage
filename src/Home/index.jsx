@@ -6,18 +6,24 @@ import { enquireScreen } from 'enquire-js';
 import Nav3 from './Nav3';
 import Banner5 from './Banner5';
 import Feature0 from './Feature0';
+import Feature1 from './Feature1';
+import Feature2 from './Feature2';
+import Feature4 from './Feature4';
 import Teams1 from './Teams1';
 import Teams4 from './Teams4';
-import Footer1 from './Footer1';
+import Footer0 from './Footer0';
 
 import {
-  Nav30DataSource,
+  Nav31DataSource,
   Banner50DataSource,
   Feature01DataSource,
   Feature00DataSource,
+  Feature10DataSource,
+  Feature20DataSource,
+  Feature40DataSource,
   Teams10DataSource,
   Teams40DataSource,
-  Footer10DataSource,
+  Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -58,9 +64,9 @@ export default class Home extends React.Component {
   render() {
     const children = [
       <Nav3
-        id="Nav3_0"
-        key="Nav3_0"
-        dataSource={Nav30DataSource}
+        id="Nav3_1"
+        key="Nav3_1"
+        dataSource={Nav31DataSource}
         isMobile={this.state.isMobile}
       />,
       <Banner5
@@ -81,6 +87,24 @@ export default class Home extends React.Component {
         dataSource={Feature00DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Feature1
+        id="Feature1_0"
+        key="Feature1_0"
+        dataSource={Feature10DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Feature2
+        id="Feature2_0"
+        key="Feature2_0"
+        dataSource={Feature20DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Feature4
+        id="Feature4_0"
+        key="Feature4_0"
+        dataSource={Feature40DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Teams1
         id="Teams1_0"
         key="Teams1_0"
@@ -93,10 +117,10 @@ export default class Home extends React.Component {
         dataSource={Teams40DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Footer1
-        id="Footer1_0"
-        key="Footer1_0"
-        dataSource={Footer10DataSource}
+      <Footer0
+        id="Footer0_0"
+        key="Footer0_0"
+        dataSource={Footer00DataSource}
         isMobile={this.state.isMobile}
       />,
     ];
